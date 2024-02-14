@@ -1,0 +1,20 @@
+[
+    {
+        "question": "What does S3 stand for in AWS?",
+        "answer": "Secure Storage Solution",
+        "correct_answer": "Simple Storage Service",
+        "answer_1": "Serverless Storage System"
+    },
+    {
+        "question": "Which AWS service is used to deploy and manage containerized applications at scale?",
+        "answer": "EC2",
+        "correct_answer": "ECS",
+        "answer_1": "S3"
+    },
+    {
+        "question": "AWS service is used to set up and manage a virtual private cloud (VPC)?",
+        "answer": "EC2",
+        "correct_answer": "VPC",
+        "answer_1": "S3"
+    }
+]
