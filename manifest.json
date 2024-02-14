@@ -1,0 +1,31 @@
+{
+    "name": "Canva App to generate video for myself",
+    "description": "automate video generation",
+    "homepage_url": "https://github.com/uurtech/CanvaApp",
+    "version": "2.0.0",
+    "manifest_version": 3,
+    "action": {
+      "default_title": "uurtech.js will run (watch the Chrome DevTools' console)"
+    },
+    "content_scripts": [
+      {
+        "run_at" : "document_idle",
+        "js": ["after.js"],
+        "matches": [
+          "https://*/*",
+          "http://*/*"
+        ]
+      }
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": [
+      "tabs",
+      "scripting"
+    ],
+    "host_permissions": [
+      "https://*/*",
+      "http://*/*"
+    ]
+  }
